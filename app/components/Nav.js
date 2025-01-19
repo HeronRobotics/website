@@ -31,6 +31,9 @@ const Nav = () => {
                 />
                 <NavbarContent className="hidden sm:flex space-x-3 text-gray-800">
                     <NavbarItem>
+                        <Link href="/camps" className='font-bold'>Camps</Link>
+                    </NavbarItem>
+                    <NavbarItem>
                         <Link href="/about">About</Link>
                     </NavbarItem>
                     <NavbarItem>

@@ -6,10 +6,8 @@ export default function Home() {
   return (
     <div className='bg-gray-200 min-h-screen'>
         <div className='h-screen'>
-            <Nav />
             <Hero />
         </div>
-        <Footer />
     </div>
   );
 }

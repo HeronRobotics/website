@@ -16,58 +16,70 @@ const Nav = () => {
     const [isMenuOpen, setMenuOpen] = React.useState(false);
 
     return (
-        <Navbar className="flex justify-center items-center mx-auto w-full max-w-7xl px-4 bg-gray-200">
-            <div className="flex items-center justify-between w-full max-w-6xl">
+        <Navbar className="bg-[#5576ae] text-white w-full px-4">
+            <div className="flex justify-between items-center w-full max-w-7xl mx-auto">
                 <NavbarBrand>
-                    <Link href="/" className="text-xl font-bold text-gray-800">
+                    <Link href="/" className="text-2xl font-bold">
                         Heron Robotics 27621
                     </Link>
                 </NavbarBrand>
-                <div className="flex-grow" />
+                <div className="hidden sm:flex space-x-6">
+                    <NavbarItem>
+                        <Link href="/camps" className="hover:underline">
+                            Camps
+                        </Link>
+                    </NavbarItem>
+                    <NavbarItem>
+                        <Link href="/about" className="hover:underline">
+                            About
+                        </Link>
+                    </NavbarItem>
+                    <NavbarItem>
+                        <Link href="/team" className="hover:underline">
+                            Team
+                        </Link>
+                    </NavbarItem>
+                    <NavbarItem>
+                        <Link href="/sponsors" className="hover:underline">
+                            Sponsors
+                        </Link>
+                    </NavbarItem>
+                </div>
                 <NavbarMenuToggle
                     aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
-                    className="sm:hidden"
+                    className="sm:hidden text-white"
                     onClick={() => setMenuOpen(!isMenuOpen)}
                 />
-                <NavbarContent className="hidden sm:flex space-x-3 text-gray-800">
-                    <NavbarItem>
-                        <Link href="/camps" className='font-bold'>Camps</Link>
-                    </NavbarItem>
-                    <NavbarItem>
-                        <Link href="/about">About</Link>
-                    </NavbarItem>
-                    <NavbarItem>
-                        <Link href="/team">Team</Link>
-                    </NavbarItem>
-                    <NavbarItem>
-                        <Link href="/sponsors">Sponsors</Link>
-                    </NavbarItem>
-                </NavbarContent>
             </div>
             <NavbarMenu
                 isOpen={isMenuOpen}
                 onClose={() => setMenuOpen(false)}
-                className="sm:hidden flex flex-col items-center justify-center space-y-6 bg-gray-200 fixed inset-0 z-50"
+                className="sm:hidden flex flex-col items-center justify-center space-y-6 bg-black text-white fixed inset-0 z-50"
             >
                 <button
                     onClick={() => setMenuOpen(false)}
-                    className="absolute top-4 right-4 text-gray-800 text-3xl"
+                    className="absolute top-4 right-4 text-3xl"
                     aria-label="Close menu"
                 >
                     &times;
                 </button>
                 <NavbarMenuItem>
-                    <Link href="/about" onClick={() => setMenuOpen(false)} className="text-2xl text-gray-800">
+                    <Link href="/camps" className="text-xl">
+                        Camps
+                    </Link>
+                </NavbarMenuItem>
+                <NavbarMenuItem>
+                    <Link href="/about" className="text-xl">
                         About
                     </Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem>
-                    <Link href="/team" onClick={() => setMenuOpen(false)} className="text-2xl text-gray-800">
+                    <Link href="/team" className="text-xl">
                         Team
                     </Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem>
-                    <Link href="/sponsors" onClick={() => setMenuOpen(false)} className="text-2xl text-gray-800">
+                    <Link href="/sponsors" className="text-xl">
                         Sponsors
                     </Link>
                 </NavbarMenuItem>

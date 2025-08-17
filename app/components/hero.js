@@ -21,11 +21,11 @@ const Hero = () => {
                     }}
                 >
                     <Image
-                    src={heron}
-                    alt="Heron"
-                    width={400}
-                    height={400}
-                    className="mx-auto mb-4"
+                        src={heron}
+                        alt="Heron"
+                        width={400}
+                        height={400}
+                        className="mx-auto mb-4"
                     />
                 </motion.div>
                 <div className="flex flex-col">
@@ -61,7 +61,7 @@ const Hero = () => {
                             staggerChildren: 0.2,
                         }}
                     >
-                        <Link href="/about">
+                        <Link href="#about">
                             <motion.p
                                 whileHover={{ scale: 1.03 }}
                                 className="text-white hover:text-lightblue delay-50"

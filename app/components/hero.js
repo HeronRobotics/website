@@ -85,12 +85,12 @@ const Hero = () => {
                                 IMPACT
                             </motion.p>
                         </Link>
-                        <Link href="/contact">
+                        <Link href="/photobooth">
                             <motion.p
                                 whileHover={{ scale: 1.03 }}
                                 className="text-white hover:text-lightblue delay-50 mt-8"
                             >
-                                CONTACT
+                                PHOTOS
                             </motion.p>
                         </Link>
                     </motion.div>

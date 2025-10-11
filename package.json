@@ -18,14 +18,28 @@
     "@nextui-org/system": "^2.2.6",
     "@nextui-org/theme": "^2.2.11",
     "framer-motion": "^11.18.2",
-    "next": "^15.1.6",
-    "react": "^18",
-    "react-dom": "^18",
+    "motion": "^12.23.24",
+    "next": "^15.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^5.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13"
-  }
+  },
+  "description": "Welcome to the official website repository for **Heron Robotics**, an FTC team dedicated to inspiring the next generation of innovators through competitive robotics and community outreach. We are based in Palo Alto, CA.",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeronRobotics/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeronRobotics/website/issues"
+  },
+  "homepage": "https://github.com/HeronRobotics/website#readme"
 }

@@ -37,7 +37,6 @@ const About = () => {
     return (
         <div className="bg-background min-h-screen flex flex-col justify-center items-center">
             <div className="container max-w-6xl bg-white shadow-md rounded-lg overflow-hidden my-8">
-                {/* Hero / Top Section */}
                 <div className="w-full h-[50vh] relative">
                     <Image
                         src={teamImage}
@@ -48,7 +47,6 @@ const About = () => {
                     />
                 </div>
 
-                {/* About Text */}
                 <div className="p-8">
                     <h1 className="text-5xl font-bold text-center text-gray-900 mb-6">
                         ABOUT US
@@ -63,7 +61,6 @@ const About = () => {
                     </p>
                 </div>
 
-                {/* Team Cards */}
                 <div className="bg-white">
                     <div className="container mx-auto py-8">
                         <h2 className="text-5xl font-bold text-center mb-8 text-gray-900">
@@ -76,7 +73,6 @@ const About = () => {
                                     className="bg-background rounded-lg shadow-lg w-64"
                                 >
                                     <CardHeader className="flex justify-center">
-                                        {/* If you're using a normal <img> in Next.js, often you'll do src={member.image.src} */}
                                         <img
                                             src={member.image.src}
                                             alt={member.name}

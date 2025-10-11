@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { IoChevronBack } from "react-icons/io5";
 import Link from "next/link";
 
-// Import each image as a module
 import teamImage from '../images/27621team.png';
 import gavinImg from '../images/gavin.png';
 import vasudhaImg from '../images/vasudha.png';

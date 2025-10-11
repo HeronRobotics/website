@@ -67,7 +67,6 @@ export default function PhotoBoothPage() {
                             className="break-inside-avoid mb-6"
                         >
                             <Card className="bg-[#286CBD] rounded-lg shadow-lg overflow-hidden hover:scale-[1.02] transition-transform duration-300">
-                                {/* Static import -> use Next/Image (width/height auto) */}
                                 <Image
                                     src={p.src}
                                     alt={p.alt}

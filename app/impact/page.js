@@ -6,7 +6,6 @@ import { IoChevronBack } from "react-icons/io5";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-// Simple fade-up variant for scroll-in
 const fadeUp = (delay = 0) => ({
     initial: { opacity: 0, y: 24 },
     animate: {
@@ -16,7 +15,6 @@ const fadeUp = (delay = 0) => ({
     },
 });
 
-// Optional: stagger container for the cards column
 const stagger = {
     initial: {},
     animate: {
@@ -59,7 +57,6 @@ const Impact = () => {
                     className="p-8"
                 >
                     <div className="columns-1 sm:columns-2 md:columns-3 gap-6 mx-auto">
-                        {/* Card 1 */}
                         <motion.div variants={fadeUp(0.05)}>
                             <Card className="bg-[#286CBD] rounded-lg shadow-lg break-inside-avoid mb-6 hover:scale-105 transition-transform duration-300">
                                 <CardHeader className="text-center">
@@ -79,7 +76,6 @@ const Impact = () => {
                             </Card>
                         </motion.div>
 
-                        {/* Card 2 */}
                         <motion.div variants={fadeUp(0.08)}>
                             <Card className="bg-[#286CBD] rounded-lg shadow-lg break-inside-avoid mb-6 hover:scale-105 transition-transform duration-300">
                                 <CardHeader className="text-center">
@@ -97,7 +93,6 @@ const Impact = () => {
                             </Card>
                         </motion.div>
 
-                        {/* Card 3 */}
                         <motion.div variants={fadeUp(0.11)}>
                             <Card className="bg-[#286CBD] rounded-lg shadow-lg break-inside-avoid mb-6 hover:scale-105 transition-transform duration-300">
                                 <CardHeader className="text-center">
@@ -117,7 +112,6 @@ const Impact = () => {
                             </Card>
                         </motion.div>
 
-                        {/* Card 4 */}
                         <motion.div variants={fadeUp(0.14)}>
                             <Card className="bg-[#286CBD] rounded-lg shadow-lg break-inside-avoid mb-6 hover:scale-105 transition-transform duration-300">
                                 <CardHeader className="text-center">
@@ -135,7 +129,6 @@ const Impact = () => {
                             </Card>
                         </motion.div>
 
-                        {/* Card 5 */}
                         <motion.div variants={fadeUp(0.17)}>
                             <Card className="bg-[#286CBD] rounded-lg shadow-lg break-inside-avoid mb-6 hover:scale-105 transition-transform duration-300">
                                 <CardHeader className="text-center">
@@ -155,7 +148,6 @@ const Impact = () => {
                             </Card>
                         </motion.div>
 
-                        {/* Card 6 */}
                         <motion.div variants={fadeUp(0.2)}>
                             <Card className="bg-[#286CBD] rounded-lg shadow-lg break-inside-avoid mb-6 hover:scale-105 transition-transform duration-300">
                                 <CardHeader className="text-center">
@@ -173,7 +165,6 @@ const Impact = () => {
                             </Card>
                         </motion.div>
 
-                        {/* Card 7 */}
                         <motion.div variants={fadeUp(0.23)}>
                             <Card className="bg-[#286CBD] rounded-lg shadow-lg break-inside-avoid mb-6 hover:scale-105 transition-transform duration-300">
                                 <CardHeader className="text-center">
@@ -191,7 +182,6 @@ const Impact = () => {
                             </Card>
                         </motion.div>
 
-                        {/* Card 8 */}
                         <motion.div variants={fadeUp(0.26)}>
                             <Card className="bg-[#286CBD] rounded-lg shadow-lg break-inside-avoid mb-6 hover:scale-105 transition-transform duration-300">
                                 <CardHeader className="text-center">
@@ -209,7 +199,6 @@ const Impact = () => {
                             </Card>
                         </motion.div>
 
-                        {/* Card 9 */}
                         <motion.div variants={fadeUp(0.29)}>
                             <Card className="bg-[#286CBD] rounded-lg shadow-lg break-inside-avoid mb-6 hover:scale-105 transition-transform duration-300">
                                 <CardHeader className="text-center">
@@ -227,7 +216,6 @@ const Impact = () => {
                             </Card>
                         </motion.div>
 
-                        {/* Card 10 */}
                         <motion.div variants={fadeUp(0.32)}>
                             <Card className="bg-[#286CBD] rounded-lg shadow-lg break-inside-avoid mb-6 hover:scale-105 transition-transform duration-300">
                                 <CardHeader className="text-center">
@@ -245,7 +233,6 @@ const Impact = () => {
                             </Card>
                         </motion.div>
 
-                        {/* Card 11 */}
                         <motion.div variants={fadeUp(0.35)}>
                             <Card className="bg-[#286CBD] rounded-lg shadow-lg break-inside-avoid mb-6 hover:scale-105 transition-transform duration-300">
                                 <CardHeader className="text-center">
@@ -264,7 +251,6 @@ const Impact = () => {
                         </motion.div>
                     </div>
 
-                    {/* Centered Back Button */}
                     <motion.div
                         variants={fadeUp(0.1)}
                         className="mt-10 flex justify-center"

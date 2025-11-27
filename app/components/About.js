@@ -37,9 +37,9 @@ export default function AboutPage() {
                     viewport={{ once: true, amount: 0.2 }}
                 >
                     <StatCard label="Founded" value="2024" />
-                    <StatCard label="Members" value="12" />
+                    <StatCard label="Members" value="8" />
                     <StatCard label="Total Hours per Week" value="300+" />
-                    <StatCard label="Awards" value="Inspire 2 / Design" />
+                    <StatCard label="Awards" value="Inspire 2 / Design (2024) Connect (2025)" />
                 </motion.div>
             </section>
 
@@ -168,7 +168,7 @@ export default function AboutPage() {
                     </div>
                     <div className="flex gap-3">
                         <Link
-                            href="/contact"
+                            href="mailto:heronroboticsteam@gmail.com"
                             className="px-5 py-2 rounded-full bg-lightblue text-white font-semibold hover:opacity-90 transition"
                         >
                             Contact Us
